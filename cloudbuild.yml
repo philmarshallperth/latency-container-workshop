@@ -26,6 +26,7 @@ steps:
         "--image",
         "gcr.io/$PROJECT_ID/my_app:latest",
         "--no-traffic", 
+        "--to-revisions=LATEST=50", 
         "--region",
         "australia-southeast1",
         "--platform",
